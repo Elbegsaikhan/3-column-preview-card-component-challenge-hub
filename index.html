@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca:wght@700&display=swap"
+    rel="stylesheet">
+  <title>Frontend Mentor | 3-column preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+
+    .main {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+      background-color: aliceblue;
+    }
+
+    .all {
+      width: 310px;
+      padding: 50px;
+      height: 500px;
+      background-color: hsl(0, 0%, 95%);
+      /* border-radius: 5px; */
+    }
+
+    .one {
+      background-color: hsl(52, 77%, 52%);
+      border-bottom-left-radius: 5px;
+      border-top-left-radius: 5px;
+    }
+
+    .two {
+      background-color: hsl(184, 100%, 22%);
+
+    }
+
+    .three {
+      border-top-right-radius: 5px;
+      border-bottom-right-radius: 5px;
+      background-color: hsl(179, 100%, 13%);
+    }
+
+    .text {
+      font-family: 'Lexend Deca', sans-serif;
+      font-weight: 400;
+      color: hsla(0, 0%, 100%, 0.75);
+      width: 240px;
+      /* font-size: 15px; */
+    }
+
+    .title {
+      font-family: 'Big Shoulders Display', cursive;
+      font-weight: 700;
+      color: hsla(0, 0%, 95%);
+      text-transform: uppercase;
+      margin-bottom: 40px;
+      /* font-size: 15px; */
+    }
+
+    img {
+      margin-bottom: 40px;
+    }
+
+    .btn {
+      width: 148px;
+      height: 40px;
+      margin-top: 78px;
+      background-color: transparent;
+      border-style: none;
+      border: 1px solid hsla(0, 0%, 95%);
+      border-radius: 20px;
+      color: hsla(0, 0%, 100%, 0.75);
+      font-family: 'Lexend Deca', sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="main">
+    <div class="one all">
+      <img src="images/icon-sedans.svg" alt="">
+      <h1 class="title">sedans</h1>
+      <p class="text">
+        Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city
+        or on your next road trip.
+      </p>
+      <button class="btn">Learn More</button>
+    </div>
+    <div class="two all">
+      <img src="images/icon-suvs.svg" alt="">
+      <h1 class="title">suvs</h1>
+      <p class="text">
+        Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation
+        and off-road adventures.
+      </p>
+      <button class="btn">Learn More</button>
+    </div>
+    <div class="three all">
+      <img src="images/icon-luxury.svg" alt="">
+      <h1 class="title">luxury</h1>
+      <p class="text">
+        Cruise in the best car brands without the bloated prices. Enjoy the enhanced comfort of a luxury
+        rental and arrive in style.
+
+      </p>
+      <button class="btn">Learn More</button>
+    </div>
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+
+</html>
